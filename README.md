@@ -12,7 +12,7 @@ Alamofire를 이용하여 JSON 데이터베이스의 문법을 가져왔습니�
 Pod를 이용하여 JSON를 다루기 위한 SwifyJSON 외부 라이브러리를 사용하였습니다.
  
  <pre><code>{※var temp1 = "\(json2["main"]["temp"])"                          //JSON에서 특정 값을 가져오는 파싱입니다.
- let temp1_num = round((temp1 as NSString).doubleValue - 273.15) //temp1 변수는 Data 형식으로 되어 있으므로, Double 값으로 변형합니다.}</code></pre
+ let temp1_num = round((temp1 as NSString).doubleValue - 273.15) //temp1 변수는 Data 형식으로 되어 있으므로, Double 값으로 변형합니다.}</code></pre>
 
 사진
 -------------
