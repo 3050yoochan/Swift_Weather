@@ -12,6 +12,7 @@ OpenWeatherAPI를 이용한 날씨 앱입니다.
 사용된 기술
 -------------
 Alamofire를 이용하여 JSON 데이터베이스의 문법을 가져왔습니다.
+
 Pod를 이용하여 JSON를 다루기 위한 SwifyJSON 외부 라이브러리를 사용하였습니다.
  
  <pre><code>{※var temp1 = "\(json2["main"]["temp"])"                          //JSON에서 특정 값을 가져오는 파싱입니다.
