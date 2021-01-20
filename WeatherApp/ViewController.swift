@@ -31,7 +31,8 @@ class ViewController: UIViewController {
     
     func getInfo()
     {
-        let url = "https://api.openweathermap.org/data/2.5/weather?q=seoul&appid=64e83dd3ff52eae5bf12bd48a9555655"
+        let url = "https://api.openweathermap.org/data/2.5/weather?q=seoul&appid="
+        #ERROR ("당황하지마세요. OpenWeatherAPI에서 자신의 키 값을 가져오신 후, 'appid=' 옆에 ")
         AF.request( url, method: .get, parameters: nil, encoding: URLEncoding.default, headers: ["Content-Type":"application/json", "Accept":"application/json"])
                     .validate(statusCode: 200..<300)
                     .responseJSON { (json) in
